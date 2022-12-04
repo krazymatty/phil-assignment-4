@@ -1,0 +1,12 @@
+StudentEnrollment
+master csv file
+professor => list of students
+Parse Master List
+Save to 3 seperate files.
+Grouping students by course
+Sort each group by grades desc
+
+Example CSV
+Student ID		Student Name		Course			Grade
+	91			Donald Schultz		COMPSCI 321		87
+	33			Stewart Reed		STAT 239		90
