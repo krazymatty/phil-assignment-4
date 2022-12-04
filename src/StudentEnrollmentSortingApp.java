@@ -1,7 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class StudentEnrollment {
+public class StudentEnrollmentSortingApp {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		String[] courseNames = new String[3];
