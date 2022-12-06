@@ -36,15 +36,16 @@ public class SplitStudentService {
 				}
 				String[] studentArray = null;
 				Student[] studentArr = new Student[fileLength];
+				Student student = null;
 				int i = 0;
-				reader.readLine();
+				reader.readLine(); // ignores 1st row of headers in script
 				while ((line = reader.readLine()) != null) {
 					studentArray = line.split(",");
 					studentID = Integer.parseInt(studentArray[0]);
 					studentName = studentArray[1];
 					studentCourse = studentArray[2];
 					studentGrade = Integer.parseInt(studentArray[3]);
-					Student student = new Student(studentName, studentID, studentGrade, studentCourse);
+					student = new Student(studentName, studentID, studentGrade, studentCourse);
 					studentArr[i] = student;
 					i++;
 

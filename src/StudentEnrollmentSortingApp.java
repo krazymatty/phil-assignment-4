@@ -14,7 +14,7 @@ public class StudentEnrollmentSortingApp {
 		String fileHeaders = "Student ID,Student Name,Course,Grade";
 
 		new SplitStudentService(courseNames, masterFile, fileType, fileLength, fileHeaders);
-		
+
 		System.out.println("Completed: Master file sorted and saved into new .csv files.");
 
 	}
